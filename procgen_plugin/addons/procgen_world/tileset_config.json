@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "author": "xStrix",
+  "tilesets": [
+    {
+      "id": "pixel_platformer",
+      "name": "Pixel Platformer (Kenney)",
+      "file": "res://addons/procgen_world/tiles/pixel_platformer.png",
+      "tile_width": 18,
+      "tile_height": 18,
+      "columns": 20,
+      "license": "CC0"
+    }
+  ],
+  "terrain_types": {
+    "grass": {
+      "label_en": "Grass",
+      "label_it": "Erba",
+      "color_preview": "#4caf50",
+      "tileset": "pixel_platformer",
+      "tiles": [1,2,3,20,21,22,23,16,17,18,19,36,37,38,39,56,57,58,59,76,77,78,79]
+    },
+    "dirt": {
+      "label_en": "Dirt",
+      "label_it": "Terra",
+      "color_preview": "#795548",
+      "tileset": "pixel_platformer",
+      "tiles": [40,41,42,43,60,61,62,63,120,121,122,123,140,141,142,143,4,5,6,7,8,24,25,26,29,30,31,47,48,49,50,51,71,146,147]
+    },
+    "water": {
+      "label_en": "Water",
+      "label_it": "Acqua",
+      "color_preview": "#2196f3",
+      "tileset": "pixel_platformer",
+      "tiles": [33,34,35,53,54,55,73,74,75,93,94,95,113,114,115,132,133,134,135,153,154,155,156]
+    },
+    "snow": {
+      "label_en": "Snow",
+      "label_it": "Neve",
+      "color_preview": "#e0f7fa",
+      "tileset": "pixel_platformer",
+      "tiles": [80,81,82,83,100,101,102,103,145]
+    },
+    "lava": {
+      "label_en": "Lava",
+      "label_it": "Lava",
+      "color_preview": "#ff5722",
+      "tileset": "pixel_platformer",
+      "tiles": [12,13,14,15,107,108]
+    },
+    "decoration": {
+      "label_en": "Trees & Deco",
+      "label_it": "Alberi e Deco",
+      "color_preview": "#33691e",
+      "tileset": "pixel_platformer",
+      "tiles": [124,125,126,127,96,116,136,97,117,137,98,99,118,119,138,139]
+    }
+  }
+}
